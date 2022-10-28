@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="./imgs/pokeball_icon.ico" type="image/x-icon">
+    <title>Pokedex</title>
+</head>
+
+<body>
+
+    <form class="container_pesquisa" data-formPkm>
+        <div class="filtrar-pesquisa">
+            <input type="text" class="campo-pesquisa" placeholder="Pesquise pelo Pokemon ou ID" data-campo>
+            <span class="mostrar_mais_seta" data-setaBtn></span>
+            <span class="mostrar_mais_areaClick" data-mostrarMais></span>
+        </div>
+
+
+        <!--Todos os types dos pkms-->
+        <div class="filtrar-tipo desativado" data-containerTypes>
+
+            <label for="check-bug" class="type_pkm unchecked" data-btnType>Bug</label>
+            <input type="checkbox" name="check-bug" id="check-bug" data-checkType>
+
+            <label for="check-dark" class="type_pkm unchecked" data-btnType>Dark</label>
+            <input type="checkbox" name="check-dark" id="check-dark" data-checkType>
+
+            <label for="check-dragon" class="type_pkm unchecked" data-btnType>Dragon</label>
+            <input type="checkbox" name="check-dragon" id="check-dragon" data-checkType>
+
+            <label for="check-electric" class="type_pkm unchecked" data-btnType>Electric</label>
+            <input type="checkbox" name="check-electric" id="check-electric" data-checkType>
+
+            <label for="check-fairy" class="type_pkm unchecked" data-btnType>Fairy</label>
+            <input type="checkbox" name="check-fairy" id="check-fairy" data-checkType>
+
+            <label for="check-fighting" class="type_pkm unchecked" data-btnType>Fighting</label>
+            <input type="checkbox" name="check-fighting" id="check-fighting" data-checkType>
+
+            <label for="check-fire" class="type_pkm unchecked" data-btnType>Fire</label>
+            <input type="checkbox" name="check-fire" id="check-fire" data-checkType>
+
+            <label for="check-flying" class="type_pkm unchecked" data-btnType>Flying</label>
+            <input type="checkbox" name="check-flying" id="check-flying" data-checkType>
+
+            <label for="check-ghost" class="type_pkm unchecked" data-btnType>Ghost</label>
+            <input type="checkbox" name="check-ghost" id="check-ghost" data-checkType>
+
+            <label for="check-grass" class="type_pkm unchecked" data-btnType>Grass</label>
+            <input type="checkbox" name="check-grass" id="check-grass" data-checkType>
+
+            <label for="check-ground" class="type_pkm unchecked" data-btnType>Ground</label>
+            <input type="checkbox" name="check-ground" id="check-ground" data-checkType>
+
+            <label for="check-ice" class="type_pkm unchecked" data-btnType>Ice</label>
+            <input type="checkbox" name="check-ice" id="check-ice" data-checkType>
+
+            <label for="check-normal" class="type_pkm unchecked" data-btnType>Normal</label>
+            <input type="checkbox" name="check-normal" id="check-normal" data-checkType>
+
+            <label for="check-poison" class="type_pkm unchecked" data-btnType>Poison</label>
+            <input type="checkbox" name="check-poison" id="check-poison" data-checkType>
+
+            <label for="check-psychic" class="type_pkm unchecked" data-btnType>Psychic</label>
+            <input type="checkbox" name="check-psychic" id="check-psychic" data-checkType>
+
+            <label for="check-rock" class="type_pkm unchecked" data-btnType>Rock</label>
+            <input type="checkbox" name="check-rock" id="check-rock" data-checkType>
+
+            <label for="check-steel" class="type_pkm unchecked" data-btnType>Steel</label>
+            <input type="checkbox" name="check-steel" id="check-steel" data-checkType>
+
+            <label for="check-water" class="type_pkm unchecked" data-btnType>Water</label>
+            <input type="checkbox" name="check-water" id="check-water" data-checkType>
+
+        </div>
+
+
+    </form>
+
+    <div class="container_pkm" data-containerPkm>
+        <!--CORPO DE UM CARD-->
+
+        <!--
+        <ul class="card">
+            <li class="foto_pkm"></li>
+            <div class="dados_pkm">
+                <li class="id_pkm"></li>
+                <li class="nome_pkm"></li>
+                <li class="type_pkm grass"></li>
+                <li class="type_pkm poison"></li>
+            </div>
+        </ul>
+        -->
+
+    </div>
+
+    <div class="carregamento" data-carregamento>
+        <div class="pokebola"></div>
+        <h4>Carregando...</h4>
+    </div>
+
+    <script type="module" src="javascript/main.js"></script>
+</body>
+
+</html>

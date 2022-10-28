@@ -1,0 +1,85 @@
+@import url(./coresTipo.css);
+@import url(./barraPesquisa.css);
+@import url(./carregamento.css);
+
+body {
+    background-color: #202020;
+    color: seashell;
+    font-size: 18px;
+    font-family: Helvetica, sans-serif;
+}
+
+
+.container_pkm {
+    width: 80%;
+    min-width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.card {
+    padding: 1em;
+    border-radius: 1em;
+    margin: .7em;
+    background-color: #404040;
+
+    position: relative;
+}
+
+.foto_pkm_img {
+    width: 300px;
+    height: 300px;
+
+    position: relative;
+    z-index: +2;
+}
+
+.circulo-pkm::before {
+    content: '';
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: inherit;
+
+    top:50;
+    left: 50%;
+    transform: translate(-50%);
+
+    opacity: .4;
+
+    
+    position: absolute;
+    z-index: 1;
+}
+
+.dados_pkm {
+    margin: 0 .5em;
+}
+
+
+.id_pkm {
+    opacity: 0.8;
+    position: absolute;
+    top: 3%;
+    right: 5%;
+    letter-spacing: 2px;
+    font-size: 1.5rem;
+}
+
+.nome_pkm {
+    margin: .4em 0 .2em 0;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.type_pkm {
+    display: inline-block;
+
+    margin-right: .5em;
+    font-weight: 700;
+    padding: .5em 1.3em;
+    border-radius: 1em;
+}

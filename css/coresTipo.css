@@ -1,0 +1,172 @@
+.grass {
+    background-color: #9bcc50;
+    color: #202020;
+}
+
+.fire {
+    background-color: #fd7d24;
+}
+
+.water {
+    background-color: #4592c4;
+}
+
+.flying {
+    background: linear-gradient(180deg, #3dc7ef 18%, #bdb9b8 80%);
+    background-color: #3dc7ef;
+}
+
+.poison {
+    background-color: #b97fc9;
+}
+
+.bug {
+    background-color: #3a5e10;
+}
+
+.normal {
+    background-color: #ffffff;
+    color: #202020;
+}
+
+.electric {
+    background-color: #eed535;
+    color: #202020;
+}
+
+.ground {
+    background: linear-gradient(180deg, #f7de3f 18%, #ab9842 80%);
+    background-color: #f7de3f;
+    color: #202020;
+}
+
+.fighting {
+    background-color: #d56723;
+}
+
+.fairy {
+    background-color: #fdb9e9;
+    color: #202020;
+}
+
+.rock {
+    background-color: #a38c21;
+}
+
+.psychic {
+    background-color: #f366b9;
+}
+
+.steel {
+    background-color: #9eb7b8;
+    color: #202020;
+}
+
+.ice {
+    background-color: #51c4e7;
+    color: #202020;
+}
+
+.ghost {
+    background-color: #7b62a3;
+}
+
+.dragon {
+    background: linear-gradient(180deg, #53a4cf 18%, #f16e57 80%);
+    background-color: #f16e57;
+    color: #fff;
+}
+
+.nao-encontrado {
+    background-color: #404040;
+    border-radius: 50%;
+    color: white;
+}
+
+.dark {
+    background-color: #707070;
+}
+
+/* COR FONTE POR TIPO*/
+
+.fonteID {
+    font-weight: 700;
+}
+
+.grassID {
+    color: #9bcc50;
+
+}
+
+.fireID {
+    color: #fd7d24;
+}
+
+.waterID {
+    color: #4592c4;
+}
+
+.flyingID {
+    color: #3dc7ef;
+}
+
+.poisonID {
+    color: #b97fc9;
+}
+
+.bugID {
+    color: #3a5e10;
+}
+
+.normalID {
+    color: #ffffff;
+}
+
+.electricID {
+    color: #eed535;
+}
+
+.groundID {
+    color: #f7de3f;
+}
+
+.fightingID {
+    color: #d56723;
+}
+
+.fairyID {
+    color: #fdb9e9;
+}
+
+.rockID {
+    color: #a38c21;
+}
+
+.psychicID {
+    color: #f366b9;
+}
+
+.steelID {
+    color: #9eb7b8;
+
+}
+
+.iceID {
+    color: #51c4e7;
+}
+
+.ghostID {
+    color: #7b62a3;
+}
+
+.dragonID {
+    color: #f16e57;
+}
+
+.darkID {
+    color: #707070;
+}
+
+.nao-encontradoID {
+    background-color: #404040;
+}
